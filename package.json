@@ -1,19 +1,45 @@
 {
-    "name": "chatgpt-autocomplete",
-    "displayName": "ChatGPT Autocomplete",
-    "description": "Inline code suggestions powered by GPT-4.",
-    "version": "0.0.1",
-    "engines": { "vscode": "^1.75.0" },
-    "activationEvents": ["onCommand:chatgpt-autocomplete.configureApiKey"],
-    "main": "./extension.js",
-    "contributes": {
-      "commands": [
-        {
-          "command": "chatgpt-autocomplete.configureApiKey",
-          "title": "Configure OpenAI API Key"
-        }
-      ]
-    },
-    "dependencies": { "node-fetch": "^2.6.1" }
+  "name": "neetechs-ai-autocompletion",
+  "displayName": "Neetechs AI Autocompletion",
+  "description": "⚡ Lightweight GPT-4 code suggestions right in VS Code — powered by your own OpenAI API key.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onCommand:neetechs-autocomplete.configureApiKey"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "neetechs-autocomplete.configureApiKey",
+        "title": "Neetechs: Configure OpenAI API Key"
+      }
+    ]
+  },
+  "keywords": [
+    "gpt4",
+    "chatgpt",
+    "autocomplete",
+    "code assistant",
+    "openai",
+    "neetechs"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "author": {
+    "name": "Sayed Jihad Al Sayed",
+    "email": "support@neetechs.com",
+    "url": "https://neetechs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jihadelsayed/neetechs-autocomplete-vscode"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
   }
-  
+}

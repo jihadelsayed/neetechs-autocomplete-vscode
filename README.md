@@ -10,28 +10,41 @@
 - 🧠 Context-aware suggestions from recent lines
 - 🔐 Uses your personal OpenAI API key (secure, no shared keys)
 - ⚙️ Works with all languages
-- 🖱️ Trigger on typing or manually
+- 🖱️ Trigger on `.` `(` `{` `=` `:` or manually
 
 ---
 
 ## 🚀 How to Use
 
-1. Press `Ctrl+Shift+P` → "Neetechs: Configure OpenAI API Key"
+1. Press `Ctrl+Shift+P` → `Neetechs: Configure OpenAI API Key`
 2. Paste your API key from [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
-3. Start coding — suggestions appear after typing `.`
+3. Start typing — suggestions will appear after you type trigger characters
 
 ---
 
 ## 🛠️ Requirements
 
 - OpenAI API key (GPT-4 recommended)
-- Node.js installed for VS Code extension runtime
+- Node.js installed (for running the extension in dev mode)
 
 ---
 
 ## 🔐 Privacy
 
-Your API key is stored locally using VS Code's secure storage. We never collect or transmit any data externally.
+Your API key is stored securely using VS Code’s internal secrets storage.  
+🛡️ No data is sent anywhere except to OpenAI through their official API.
+
+---
+
+## 🧪 Development
+
+To test locally:
+
+```bash
+npm install
+code .
+# Press F5 to run Extension Dev Host
+
 
 ---
 

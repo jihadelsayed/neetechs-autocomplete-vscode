@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-    let disposable = vscode.commands.registerCommand('chatgpt-autocomplete.configureApiKey', async () => {
+    let disposable = vscode.commands.registerCommand('neetechs-autocomplete.configureApiKey', async () => {
         const key = await vscode.window.showInputBox({ prompt: 'Enter your OpenAI API Key', ignoreFocusOut: true, password: true });
         if (key) {
             await context.secrets.store('openaiApiKey', key);
