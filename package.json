@@ -15,7 +15,12 @@
       {
         "command": "neetechs-autocomplete.configureApiKey",
         "title": "Neetechs: Configure OpenAI API Key"
+      },
+      {
+        "command": "neetechs-autocomplete.selectModel",
+        "title": "Neetechs: Select OpenAI Model"
       }
+      
     ]
   },
   "keywords": [
