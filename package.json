@@ -1,0 +1,19 @@
+{
+    "name": "chatgpt-autocomplete",
+    "displayName": "ChatGPT Autocomplete",
+    "description": "Inline code suggestions powered by GPT-4.",
+    "version": "0.0.1",
+    "engines": { "vscode": "^1.75.0" },
+    "activationEvents": ["onCommand:chatgpt-autocomplete.configureApiKey"],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "chatgpt-autocomplete.configureApiKey",
+          "title": "Configure OpenAI API Key"
+        }
+      ]
+    },
+    "dependencies": { "node-fetch": "^2.6.1" }
+  }
+  
