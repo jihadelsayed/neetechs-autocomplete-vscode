@@ -1,15 +1,25 @@
 {
   "name": "neetechs-ai-autocompletion",
+  "publisher": "NeetechsGPTAutocomplete",
+  "icon": "icon.png",
+
   "displayName": "Neetechs AI Autocompletion",
   "description": "⚡ Lightweight GPT-4 code suggestions right in VS Code — powered by your own OpenAI API key.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.75.0"
   },
   "activationEvents": [
-    "onCommand:neetechs-autocomplete.configureApiKey"
-  ],
-  "main": "./extension.js",
+  "onCommand:neetechs-autocomplete.configureApiKey",
+  "onCommand:neetechs-autocomplete.selectModel",
+  "onLanguage:javascript",
+  "onLanguage:typescript",
+  "onLanguage:python",
+  "onLanguage:java",
+  "onLanguage:html"
+],
+
+"main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
@@ -21,6 +31,13 @@
         "title": "Neetechs: Select OpenAI Model"
       }
       
+    ],
+    "keybindings": [
+      {
+        "command": "editor.action.triggerSuggest",
+        "key": "ctrl+shift+space",
+        "when": "editorTextFocus"
+      }
     ]
   },
   "keywords": [

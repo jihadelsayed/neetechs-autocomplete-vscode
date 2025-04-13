@@ -61,11 +61,13 @@ For help or feedback: [support@neetechs.com](mailto:support@neetechs.com)
 
 ### 🌍 Follow Neetechs
 
-[![Facebook](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-facebook.svg)](https://facebook.com/neetechs0)
-[![X](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-twitter.svg)](https://x.com/neetechs)
-[![Instagram](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-instagram.svg)](https://instagram.com/neetechs)
-[![LinkedIn](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-linkedin.svg)](https://linkedin.com/company/neetechs)
-[![YouTube](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-youtube.svg)](https://youtube.com/@neetechs)
-[![GitHub](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-github.svg)](https://github.com/jihadelsayed)
-[![Pinterest](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-pinterest.svg)](https://pinterest.com/neetechs)
-[![TikTok](https://raw.githubusercontent.com/jihadelsayed/Neetechs/main/icons/icon-tiktok.svg)](https://tiktok.com/@neetechs)
+- 🌐 [Website](https://neetechs.com)
+- 📘 [Facebook](https://facebook.com/neetechs0)
+- 🐦 [X (Twitter)](https://x.com/neetechs)
+- 📸 [Instagram](https://instagram.com/neetechs)
+- 💼 [LinkedIn](https://linkedin.com/company/neetechs)
+- 🎥 [YouTube](https://youtube.com/@neetechs)
+- 🧪 [GitHub](https://github.com/jihadelsayed)
+- 📌 [Pinterest](https://pinterest.com/neetechs)
+- 🎭 [TikTok](https://tiktok.com/@neetechs)
+
